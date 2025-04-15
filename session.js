@@ -41,8 +41,8 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
     SESSION_ID: process.env.SESSION_ID || "ANJU-XPRO~3ZliWaJL#-Y6k2U45L-F0_QFvDJ65RthB79H-2QOF0rkz3aXL0tU",
-    GITHUB_TOKEN: process.env.GITHUB_TOKEN || "github token without ghp_",
-    GITHUB_USERNAME: process.env.GITHUB_USERNAME || "github username",
+    GITHUB_TOKEN: process.env.GITHUB_TOKEN || "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",
+    GITHUB_USERNAME: process.env.GITHUB_USERNAME || "billy-257",
     SUDO: process.env.SUDO ? process.env.SUDO.split(",") : ["94717775628", "94758775628"],
     PORT: process.env.PORT || "8000",
     SESSION_DIR: process.env.SESSION_DIR || "session",
